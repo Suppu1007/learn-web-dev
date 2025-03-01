@@ -33,5 +33,5 @@ project-folder/
 - CSS
 
 ## Author
-[M Supriya]
+[Matthew]
 
