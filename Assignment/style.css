@@ -110,6 +110,20 @@ footer nav a{
     color:#8ba768;
 }
 
+/* index */
+p .title {
+    font-size: 18px;
+    color: #6c4f1d;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center; 
+    background-color: #fef3d2;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
 /* About-us */
 .about{
     display: flex;
@@ -236,4 +250,31 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+
+@media (max-width: 480px) and (orientation: portrait) {
+    .gallery{
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(5, auto);
+    }
+
+    .service p{
+        font-size: 12px;
+        line-height: 1.5;
+    }
+    
+    .service h2 {
+        font-size: 18px;
+    }
+    
+    .service img{
+        width: 100%;
+        height: 80%;
+    }
+}
+
+@media (min-width: 1280px) {
+    footer {
+        position: absolute;
+    }
 }
