@@ -32,6 +32,6 @@ project-folder/
 - HTML
 - CSS
 
-## Author
-[Matthew]
+
+
 
